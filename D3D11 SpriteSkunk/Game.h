@@ -48,7 +48,9 @@ private:
 	/*  User Variables              */
 
 	Sprite twinkle;
-	NBody sim;
+	// change this to NBodySSE or NBody to see the performance differences
+	// frametimes appear in logfile.txt
+	NBodyAVX sim;
 	FrameTimer ft;
 	std::wofstream logFile;
 
