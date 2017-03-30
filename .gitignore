@@ -154,3 +154,5 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/D3D11 SpriteSkunk.VC.db
+/D3D11 SpriteSkunk.VC.VC.opendb
